@@ -19,7 +19,7 @@ header{
     width: 100%;
     max-width: 1600px;
 }
-.logo h1{
+.logo h1, footer h1{
     color: #FFFFFF;
     
 }
@@ -32,7 +32,7 @@ header{
   );
 }
 
-header h1 .grad{
+header h1 .grad, footer h1 .grad{
     
   background: var(--main-gradient);
   -webkit-background-clip: text;
@@ -312,17 +312,128 @@ max-height: 350px;
     font-weight: 700;
     margin-bottom: 16px;
 }
-.grid p{
+.grid p, .host-card p{
     font-size: 1rem;
     font-weight: 400;
     color: #FFFFFF;
     line-height: 1.5rem;
 }
 
+.featured-Episodes{
+    max-width: 1600px;
+    height: 1276px;
+    background-color: #1A0B2E ;
+    text-align: center;
+}
+.featured-Episodes h2{
+      font-size: 3rem;
+  color: #FFFFFF;
+  font-weight: 700;
+  
+}
+.video-card{
+    display: flex;
+justify-content: center;
+gap: 30px;
+width: 1200px;
+margin: 120px 200px;
+}
 
+.video-card h3, .host-card h3{
 
+     color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.video-card p{
+     font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 1.5rem;
+}
 
+.video-card h6{
+    color: #00FF88;
+    font-weight: 600px;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.clock{
+    display: flex;
+    gap: 16px;
+}
+.host-card{
+    max-width: 1200px;
+    height: 280px;
+    margin: 40px 200px 120px 200px;
+    display: flex;
+    justify-content: center;
+     background-color: rgba(53, 17, 101, 0.4);
+     border-radius: 50px;
+}
 
+    .host-card h3{
+        margin: 48px 40px 16px 24px;
+        text-align: left;
+    }
+.host-card .icon{
+    display: flex;
+    justify-content: flex-start;
+  margin: 0px 752px 48px 16px;
+  gap: 8px;
+
+}
+    .host-card p{
+        text-align: left;
+        max-width: 896px;
+        height: 72px;
+        margin: 0 40px 16px 24px;
+    }
+
+.footer-banner{
+    background-image: url(../assets/footer-bg.png);
+    background-repeat: no-repeat;
+          background-size: cover;
+  background-position: center;
+  max-width: 1600px;
+  height: 412px;
+  align-items: center;
+  text-align: center;
+  padding-top: 120px;
+}
+.footer-container{
+    max-width: 1360px;
+    height: 172px;
+display: inline;
+text-align: center;
+gap: 32px;
+padding:0 120px;
+}
+
+  footer h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 32px;
+  }
+
+  .icon-img-footer{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 32px;
+  }
+.copyright{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.footer-container p{
+     font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
 @media screen and (max-width:576px) {
      .menu,
   .mbl-btn {
